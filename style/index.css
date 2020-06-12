@@ -46,17 +46,19 @@ table {
 
 html {
     font-size: 62.5%;
+    background: lightsteelblue;
 }
 
 header {
-    background: midnightblue;
+    background: darkcyan;
     padding: 2rem;
-    border-bottom: 0.2rem solid black;
+    border-bottom: 0.2rem outset lightsteelblue;
 }
 
 header h1 {
     font-size: 8rem;
-    padding: 1rem;
+    padding: 2rem;
+    border: 2rem transparent;
 }
 
 header nav {
@@ -65,22 +67,47 @@ header nav {
     font-size: 1.5rem;
     text-decoration: none;
     display: flex;
-    margin-right: 70%;
+    margin-right: 65%;
     margin-left: 5%;
-    justify-content: space-between;
+    align-items: stretch;
 }
 
 header nav a {
-    border: 0.1rem transparent;
-    border-radius: 1rem;
     background: pink;
     padding: 1.5rem;
+    border: 0.1
+}
+
+section.bio {
+    display: flex;
 }
 
 section.bio img {
     height: 50rem;
     width: 50rem;
     border: 0.1rem transparent;
-    border-radius: 3rem;
+    border-radius: 5rem;
+    margin: 3rem;
+}
+
+section.bio div {
     display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    text-align: left;
+    padding: 10rem;
+    border: 0.1rem solid black;
+    font-size: 1.6rem;
+}
+
+section.bio div h2 {
+    font-size: 4rem;
+}
+
+section.bio div button {
+    width: 12rem;
+    height: 3rem;
+    background-color: steelblue;
+    border: 0.1rem transparent;
+    border-radius: 0.5rem;
 }
