@@ -62,24 +62,35 @@ header h1 {
 }
 
 header nav {
-    border: 0.1rem solid black;
     padding: 1.5rem;
     font-size: 1.5rem;
     text-decoration: none;
     display: flex;
-    margin-right: 65%;
+    margin-right: 60%;
     margin-left: 5%;
     align-items: stretch;
 }
 
 header nav a {
-    background: pink;
+    background: turquoise;
     padding: 1.5rem;
-    border: 0.1
+    width: 15rem;
+    height: 1.5rem;
+    border: 0.1rem ridge steelblue;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+header nav a:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 section.bio {
     display: flex;
+    padding-bottom: 10rem;
 }
 
 section.bio img {
@@ -96,7 +107,7 @@ section.bio div {
     justify-content: space-evenly;
     text-align: left;
     padding: 10rem;
-    border: 0.1rem solid black;
+    border: 0.1rem transparent;
     font-size: 1.6rem;
 }
 
@@ -110,4 +121,66 @@ section.bio div button {
     background-color: steelblue;
     border: 0.1rem transparent;
     border-radius: 0.5rem;
+}
+
+section.row1 {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+section.row1 div img.projects {
+    width: 15rem;
+    height: 15rem;
+    padding-bottom: 1rem;
+    object-fit: cover;
+}
+
+section.row2 {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+section.row2 div img {
+    width: 15rem;
+    height: 15rem;
+    padding-bottom: 1rem;
+    object-fit: cover;
+}
+
+footer {
+    background: darkcyan;
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 5rem;
+    margin-top: 5rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+footer h2 {
+    font-size: 2rem;
+}
+
+footer a {
+    background: turquoise;
+    width: 8rem;
+    height: 2rem;
+    padding: 1rem;
+    border: 0.1rem transparent;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
 }
