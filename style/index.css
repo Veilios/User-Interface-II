@@ -158,9 +158,6 @@ footer {
     text-align: center;
     padding: 5rem;
     margin-top: 5rem;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
 }
 
 footer h2 {
@@ -183,4 +180,9 @@ footer a:hover {
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
+}
+
+footer div {
+    display: flex;
+    justify-content: space-evenly;
 }
