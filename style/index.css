@@ -1,1 +1,188 @@
 /* Add CSS styling here */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+    font-size: 62.5%;
+    background: lightsteelblue;
+}
+
+header {
+    background: darkcyan;
+    padding: 2rem;
+    border-bottom: 0.2rem outset lightsteelblue;
+}
+
+header h1 {
+    font-size: 8rem;
+    padding: 2rem;
+    border: 2rem transparent;
+}
+
+header nav {
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    display: flex;
+    margin-right: 60%;
+    margin-left: 5%;
+    align-items: stretch;
+}
+
+header nav a {
+    background: turquoise;
+    padding: 1.5rem;
+    width: 15rem;
+    height: 1.5rem;
+    border: 0.1rem ridge steelblue;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+header nav a:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+section.bio {
+    display: flex;
+    padding-bottom: 10rem;
+}
+
+section.bio img {
+    height: 50rem;
+    width: 50rem;
+    border: 0.1rem transparent;
+    border-radius: 5rem;
+    margin: 3rem;
+}
+
+section.bio div {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    text-align: left;
+    padding: 10rem;
+    border: 0.1rem transparent;
+    font-size: 1.6rem;
+}
+
+section.bio div h2 {
+    font-size: 4rem;
+}
+
+section.bio div button {
+    width: 12rem;
+    height: 3rem;
+    background-color: steelblue;
+    border: 0.1rem transparent;
+    border-radius: 0.5rem;
+}
+
+section.row1 {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+section.row1 div img.projects {
+    width: 15rem;
+    height: 15rem;
+    padding-bottom: 1rem;
+    object-fit: cover;
+}
+
+section.row2 {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+section.row2 div img {
+    width: 15rem;
+    height: 15rem;
+    padding-bottom: 1rem;
+    object-fit: cover;
+}
+
+footer {
+    background: darkcyan;
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 5rem;
+    margin-top: 5rem;
+}
+
+footer h2 {
+    font-size: 2rem;
+}
+
+footer a {
+    background: turquoise;
+    width: 8rem;
+    height: 2rem;
+    padding: 1rem;
+    border: 0.1rem transparent;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+footer div {
+    display: flex;
+    justify-content: space-evenly;
+}
