@@ -186,3 +186,11 @@ footer div {
     display: flex;
     justify-content: space-evenly;
 }
+
+@media(max-width: 800px) {
+
+}
+
+@media(max-width: 500px) {
+    
+}
