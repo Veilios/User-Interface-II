@@ -94,8 +94,8 @@ section.bio {
 }
 
 section.bio img {
-    height: 50rem;
-    width: 50rem;
+    height: 35%;
+    width: 35%;
     border: 0.1rem transparent;
     border-radius: 5rem;
     margin: 3rem;
@@ -185,4 +185,94 @@ footer a:hover {
 footer div {
     display: flex;
     justify-content: space-evenly;
+}
+
+@media(max-width: 800px) {
+    .container {
+        overflow-x: hidden;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header{
+        padding: 5rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    header nav {
+        width: 100%;
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section.bio {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section.bio div {
+        width: 100%;
+        align-items: center;
+        padding: 0;
+    }
+
+    section.bio div button {
+        margin-top: 1.5rem;
+    }
+
+    section.bio div p {
+        padding: 2rem;
+        width: 60%;
+        font-size: 2.3rem;
+        text-align: center;
+    }
+
+    section.row1 {
+        width: 100%;
+        flex-wrap: wrap;
+        font-size: 2rem;
+    }
+
+    section.row1 div img.projects{
+        width: 26rem;
+        height: 26rem;
+        padding: 5rem;
+    }
+
+    section.row2 {
+        width: 100%;
+        flex-wrap: wrap;
+        font-size: 2rem;
+    }
+
+    section.row2 div img{
+        width: 26rem;
+        height: 26rem;
+        padding: 5rem;
+    }
+    
+    footer {
+        width: 100%;
+    }
+}
+
+@media(max-width: 500px) {
+    section.bio div p {
+        font-size: 2rem;
+        width: 80%;
+        text-align: center;
+    }
+
+    section.row1, section.row2 {
+        font-size: 1.8rem;
+    }
+
+    section.row1 div img.projects, section.row2 div img {
+        width: 13rem;
+        height: 13rem;
+    }
 }
